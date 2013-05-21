@@ -1,6 +1,6 @@
 {
   "name": "timeit-cli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "time it!",
   "homepage": "https://github.com/wkirschbaum/timeit",
   "engines": {
