@@ -11,10 +11,11 @@
     "commander": "1.1.1",
     "prompt": "0.2.9"
   },
-  "main": "lib/main.js",
+  "main": "lib/timeit-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": "true",
   "repository": {
     "type": "git",
     "url": "https://github.com/wkirschbaum/timeit.git"
