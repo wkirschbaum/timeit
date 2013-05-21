@@ -31,5 +31,8 @@
   },
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "e599640c41d03f6c9e68d4a9fc41ad59103d2e96"
+  "gitHead": "e599640c41d03f6c9e68d4a9fc41ad59103d2e96",
+  "bin": {
+    "timeit" : "./lib/main.js"
+  }
 }
