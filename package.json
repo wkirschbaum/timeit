@@ -1,8 +1,17 @@
 {
   "name": "timeit",
   "version": "0.0.1",
-  "description": "time it !",
-  "main": "main.js",
+  "description": "time it!",
+  "homepage": "https://github.com/wkirschbaum/timeit",
+  "engines": {
+    "node": ">= 1.2.0"
+  },
+  "dependencies": {
+    "colors": "0.6.0-1",
+    "commander": "1.1.1",
+    "prompt": "0.2.9"
+  },
+  "main": "lib/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +19,16 @@
     "type": "git",
     "url": "https://github.com/wkirschbaum/timeit.git"
   },
+  "bugs": {
+    "url": "https://github.com/wkirschbaum/timeit/issues"
+  },
   "keywords": [
     "timer"
   ],
-  "author": "Wilhelm Kirschbaum",
+  "author": {
+    "name": "Wilhelm Kirschbaum",
+    "email": "wkirchbaum@gmail.com"
+  },
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "e599640c41d03f6c9e68d4a9fc41ad59103d2e96"
